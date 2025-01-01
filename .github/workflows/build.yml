@@ -87,7 +87,7 @@ jobs:
           ${{ env.WINE_CONFIGURE }} \
             --prefix= \
             --disable-tests \
-            --disable-winedbg \
+            --enable-winedbg \
             --enable-win64 \
             --without-alsa \
             --without-capi \
