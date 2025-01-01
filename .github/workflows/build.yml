@@ -146,7 +146,7 @@ jobs:
             --prefix= \
             --disable-loader \
             --disable-tests \
-            --disable-winedbg \
+            --enable-winedbg \
             --enable-win32on64 \
             --without-alsa \
             --without-capi \
